@@ -68,7 +68,7 @@ var updates = function (db, collections, selector, fn) {
 
 //方法都赋值到操作对象上，便于调用
 var methodType = {
-    login: find,
+    login: find,  // 登录走的是 find 方法
     show: find,
     add: add,
     getpower: find,

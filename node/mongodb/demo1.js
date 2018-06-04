@@ -37,10 +37,10 @@ MongoClient.connect(Urls, function (err, db) {   //获取连接
     // })
 
     // 修改数据
-    db.collection("test2").update({"name":"zsh"},{$set:{"name":"zengshunhao"}},function(err, result) {
-        assert.strictEqual(null, err);
-        console.log(result);
-        db.close();
-    })
+    // db.collection("test2").update({"name":"zsh"},{$set:{"name":"zengshunhao"}},function(err, result) {
+    //     assert.strictEqual(null, err);
+    //     console.log(result);
+    //     db.close();
+    // })
 
 })
